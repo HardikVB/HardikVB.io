@@ -3278,6 +3278,12 @@ h6 {
       color: #000000;
       margin-top: 35px;
       text-transform: uppercase; }
+      .footer_logo img {
+    display: block;
+    margin: 0 auto; /* centers the image */
+    max-width: 100%;
+    height: auto;
+}
   .footer_area .footer_social {
     text-align: center;
     margin: 25px 0px 30px; }
