@@ -2916,8 +2916,12 @@ h6 {
     margin-top: 27px;
     margin-bottom: 23px; }
 
-  .header_area .navbar {
-    background: #000; }
+.header_area .navbar {
+  background: rgba(182, 155, 211, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
 
   .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
     opacity: 1; }
